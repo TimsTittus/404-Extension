@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "404 Counter",
+  "version": "1.0",
+  "description": "Counts the number of times you visit a 404 error page.",
+  "permissions": [
+    "webRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
