@@ -18,10 +18,14 @@ It's not meant to be a big, important tool. It's just a small, quiet counter for
 It's designed to be simple and out of your way.
 
 **The simple popup with your current count:**
-![Screenshot of the extension popup showing the count](2.png)
+<div align="left" style="padding: 20px;">
+  <img src="2.png" alt="Popup showing the count" width="300">
+</div>
 
 **The little number on the icon in your toolbar:**
-![Screenshot of the extension icon in the Chrome toolbar with a number badge](1.png)
+<div align="left" style="padding: 20px;">
+  <img src="1.png" alt="Popup showing the count" width="300">
+</div>
 
 ## Want to Try It?
 
