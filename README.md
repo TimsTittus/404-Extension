@@ -18,10 +18,10 @@ It's not meant to be a big, important tool. It's just a small, quiet counter for
 It's designed to be simple and out of your way.
 
 **The simple popup with your current count:**
-![Screenshot of the extension popup showing the count]()
+![Screenshot of the extension popup showing the count](2.png)
 
 **The little number on the icon in your toolbar:**
-![Screenshot of the extension icon in the Chrome toolbar with a number badge]()
+![Screenshot of the extension icon in the Chrome toolbar with a number badge](1.png)
 
 ## Want to Try It?
 
@@ -34,3 +34,14 @@ You can get the code in one of two ways.
 If you're comfortable with Git, you can copy the project with:
 ```bash
 git clone "https://github.com/TimsTittus/404-Counter/"
+```
+## Add it to Chrome
+* Open Chrome and head to chrome://extensions.
+
+* In the top-right corner, find the Developer mode switch and turn it on.
+
+* A few new buttons will show up. Click on Load unpacked.
+
+* In the window that opens, find and select the 404-counter folder.
+
+* And that's it! You should see the little icon pop up in your toolbar, ready for your next Browse session.
