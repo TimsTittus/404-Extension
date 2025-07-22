@@ -2,7 +2,8 @@
 
 A little companion for your travels across the web.
 
-Ever wonder how often you land on a "Page Not Found" page? We all end up in the internet's dead ends from time to time. This simple extension was born out of that curiosity. A small tool to keep a friendly count of those little 404 bumps along the road.
+Ever wonder how often you land on a "Page Not Found" page? <br>
+We all end up in the internet's dead ends from time to time. This simple extension was born out of that curiosity. A small tool to keep a friendly count of those little 404 bumps along the road.
 
 It's not meant to be a big, important tool. It's just a small, quiet counter for anyone who's a little curious about their journey online.
 
@@ -37,7 +38,7 @@ You can get the code in one of two ways.
 
 If you're comfortable with Git, you can copy the project with:
 ```bash
-git clone "https://github.com/TimsTittus/404-Counter/"
+git clone "https://github.com/TimsTittus/404-Extension/"
 ```
 ## Add it to Chrome
 * Open Chrome and head to chrome://extensions.
