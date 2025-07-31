@@ -1,32 +1,115 @@
+/* General Body & Font Styles */
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  width: 200px;
-  padding: 10px;
+    width: 320px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
 }
 
-h1 {
-  font-size: 16px;
-  color: #333;
+/* Header Section */
+.header {
+    background-color: #eef5ff;
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 1px solid #dce9fa;
+}
+
+.header p {
+    margin: 0;
+    font-size: 14px;
+    color: #5a7a9e;
 }
 
 #count-display {
-  font-size: 48px;
-  font-weight: bold;
-  color: #d9534f; /* A reddish color for errors */
-  margin: 10px 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: #0056b3;
+    line-height: 1.2;
 }
 
-button {
-  width: 100%;
-  padding: 8px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  background-color: #f0f0f0;
-  cursor: pointer;
-  font-size: 14px;
+/* Main Content (History List) */
+.content {
+    max-height: 250px;
+    overflow-y: auto;
 }
 
-button:hover {
-  background-color: #e0e0e0;
+#history-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#history-list li {
+    padding: 12px 20px;
+    border-bottom: 1px solid #e9e9e9;
+    transition: background-color 0.2s ease-in-out;
+}
+
+#history-list li:hover {
+    background-color: #ffffff;
+}
+
+#history-list li.empty-state {
+    color: #888;
+    text-align: center;
+    font-style: italic;
+}
+
+#history-list a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#history-list .timestamp {
+    display: block;
+    font-size: 11px;
+    color: #888;
+    margin-top: 4px;
+}
+
+/* Footer & Clear Button */
+.footer {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+#clear-button {
+    background-color: #e7e7e7;
+    color: #555;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#clear-button:hover {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+/* Custom Scrollbar for a cleaner look */
+.content::-webkit-scrollbar {
+    width: 6px;
+}
+.content::-webkit-scrollbar-track {
+    background: #f7f7f7;
+}
+.content::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+.content::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
 }

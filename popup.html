@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>404 Counter</title>
-  <link rel="stylesheet" href="popup.css">
+    <title>404 Counter</title>
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h1>404 Error Counter</h1>
-  <p>You have encountered</p>
-  <div id="count-display">0</div>
-  <p>404 errors.</p>
-  <button id="reset-button">Reset Count</button>
-  <script src="popup.js"></script>
+
+    <div class="header">
+        <p>You've found</p>
+        <div id="count-display">0</div>
+        <p>lost pages</p>
+    </div>
+
+    <div class="content">
+        <ul id="history-list">
+            </ul>
+    </div>
+
+    <div class="footer">
+        <button id="clear-button">
+            Clear History
+        </button>
+    </div>
+
+    <script src="popup.js"></script>
 </body>
 </html>
